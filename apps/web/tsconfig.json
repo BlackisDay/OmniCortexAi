@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl":"src",
+    "forceConsistentCasingInFileNames": true,
+    "paths":{
+      "*": ["*", "components/*", "context/*", "features/*", "services/*"]  // <- add this line
+    },
+    "types": ["node"]     // <- add this line
+  },
+  "include": ["src",
+    "src/services",]
+}
